@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.css" integrity="sha512-ShLuspGzRsTiMlQ2Rg0e+atjy/gVQr3oYKnKmQkHQ6sxcnDAEOtOaPz2rRmeygV2CtnwUawDyHkGgH4zUbP3Hw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.css" integrity="sha512-Cn5/xnOLSKjVpNCsJZCtgQhxp00FcFnlRwgbSG7WGFq1BVvyG+LoOarjXAq//8Vstyu0Na9wvEKLWR67/wAy3w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/slider.css">
 </head>
 <body>
     <header>
@@ -135,35 +132,54 @@
         </section>
         <section id="proyectos">
             <h2>Proyectos.</h2>
-            <article class="glide">
-                    <a href="https://alexander-villa.github.io/Reels-Medellin/" target="_blank">MD - Reels | Equipos de escritorio.</a>
-                <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                    <li class="glide__slide"><img src="./img/Cap_01.png" alt=""></li>
-                    <li class="glide__slide"><img src="./img/Cap_02.png" alt=""></li>
-                    <li class="glide__slide"><img src="./img/Cap_03.png" alt=""></li>
-                    <li class="glide__slide"><img src="./img/Cap_04.png" alt=""></li>
-                </ul>
-                </div>
-                <!--
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                    </div>
-                -->    
-            </article>
-            <article class="splide" aria-label="Splide Basic HTML Example">
-                    <a href="https://alexander-villa.github.io/proyecto_upb/" target="_blank">Proyecto UPB. | Móviles.</a>
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide"><img src="./img/Cap_07.png" alt=""></li>
-                        <li class="splide__slide"><img src="./img/Cap_08.png" alt=""></li>
-                        <li class="splide__slide"><img src="./img/Cap_12.png" alt=""></li>
-                        <li class="splide__slide"><img src="./img/Cap_14.png" alt=""></li>
-                        <li class="splide__slide"><img src="./img/Cap_09.png" alt=""></li>
-                        <li class="splide__slide"><img src="./img/Cap_10.png" alt=""></li>
-                        <li class="splide__slide"><img src="./img/Cap_11.png" alt=""></li>
-                    </ul>
+            <div class="a-container">
+                <div><a href="#">Proyecto UPB.</a></div>
+                <div><a href="#">MD -Reels.</a></div>
+            </div>
+            <article id="slider-container" class="slider-container">
+                <div class="slider" id="slider">
+                  <div class="slider__element">
+                    <img src="./img/Cap_01.png">
+                  </div>
+                  <div class="slider__element">
+                    <img src="./img/Cap_02.png">
+                  </div>
+                  <div class="slider__element">
+                    <img src="./img/Cap_03.png">
+                  </div>
+                  <div class="slider__element">
+                    <img src="./img/Cap_04.png">
+                  </div>
+                  <div class="slider__element">
+                    <img src="./img/Cap_05.png">
+                  </div>
+                  <div class="slider__element">
+                    <img src="./img/Cap_06.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_07.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_08.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_09.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_10.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_11.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_12.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil" src="./img/Cap_13.png">
+                  </div>
+                  <div class="slider__element">
+                    <img class="movil"  src="./img/Cap_14.png">
+                  </div>
                 </div>
             </article>
         </section>   
@@ -225,9 +241,8 @@
             <span>Copyright © 2020 EE.AA Data. Todos los derechos reservados.</span>
         </section>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.js" integrity="sha512-vZGsugWaSqQZuW8N5Z3ild7Tk8NqiZjKffeIQGpnnIs6g7HVZaFZjlLKPIw1qDsrQ5KAxAGfBinglQWu6i/8DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
     <script src="./js/gallery.js"></script>
-
+    <script src="./js/slide.js"></script>
 </body>
 </html>

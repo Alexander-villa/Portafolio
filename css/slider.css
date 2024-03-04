@@ -1,0 +1,25 @@
+.slider__element img {
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+}
+.slider__element .movil{
+  height: 450px;
+}
+
+.slider-container {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transform: translateX(var(--slide-transform));
+  transition: var(--transition);
+}
+
+.slider__element {
+  min-width: 100%;
+  text-align: center;
+}
