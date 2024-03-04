@@ -9,7 +9,6 @@ body{
 }
 h1{
   text-align: right;
-  margin: 0 10px 10px 0;
 }
 h2{
   margin-bottom: 20px;
@@ -88,7 +87,7 @@ header img{
     }
     .topnav{
       margin-top: 10px;
-      width: 70%;
+      width: 80%;
     }
     header img{
       width: 210px;
@@ -133,7 +132,7 @@ section:not(#contacto){
 }
 
 #perfil{
-  background-image: url(../img/1.jpg);
+  background-image: url(../img/10.jpg);
 }
 #perfil a{
   text-decoration: none;
@@ -143,7 +142,6 @@ section:not(#contacto){
   padding: 8px 16px;
   border-radius: 10px;
   border-style: none;
-  margin: 16px;
 }
 
 #perfil button:hover{
@@ -153,33 +151,15 @@ section:not(#contacto){
 #formacion{
   background-image: url(../img/10.jpg);
 }
+
 #experiencia{
-  background-image: url(../img/3.jpg);
-}
-#habilidades{
-  background-image: url(../img/6.jpg);
-}
-#referencias{
-  background-image: url(../img/8.jpg);
-  margin-bottom: 30px;
-}
-#certificaciones{
-  background-image: url(../img/4.jpg);
-}
-.ref{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-#contacto{
   background-image: url(../img/5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 8px;
-  border-radius: 0 0 10px 10px;
 }
+
+#habilidades{
+  background-image: url(../img/5.jpg);
+}
+
 #proyectos{
   background-image: url(../img/4.jpg);
   background-repeat: no-repeat;
@@ -212,6 +192,33 @@ section:not(#contacto){
   .a-container div {
   margin: 10px;
   }
+
+
+#certificaciones{
+  background-image: url(../img/4.jpg);
+}
+.ref{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#referencias{
+  background-image: url(../img/8.jpg);
+  margin-bottom: 30px;
+}
+
+
+#contacto{
+  background-image: url(../img/8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 8px;
+  border-radius: 0 0 10px 10px;
+}
+
   /*FOOTER*/
   .contact{
     display: flex;
@@ -234,7 +241,6 @@ footer span{
 
 .glide__slides img{
   width: 100%;
-  border-radius: 10px;
   object-fit: contain;
 }
 
@@ -245,7 +251,6 @@ footer span{
   max-height: 480PX;
   object-fit: contain;
   padding: 8px;
-  border-radius: 10px;
 }
 .splide a{
   text-decoration: none;
