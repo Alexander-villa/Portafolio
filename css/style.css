@@ -187,12 +187,11 @@ section:not(#contacto){
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  }
+}
 
-  .a-container div {
+.a-container div {
   margin: 10px;
-  }
-
+}
 
 #certificaciones{
   background-image: url(../img/4.jpg);
